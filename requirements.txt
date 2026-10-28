@@ -1,5 +1,7 @@
 streamlit>=1.41
-anthropic>=0.40
+google-genai>=1.0
 openai>=1.50
 tavily-python>=0.5
 pandas
+# optional, only if LLM_PROVIDER = "anthropic":
+# anthropic>=0.40
