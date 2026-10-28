@@ -45,7 +45,7 @@ def cfg(key, default=None):
 
 
 MODEL_DEFAULTS = {  # provider -> (main model, fast model for pre-processing)
-    "gemini": ("gemini-2.5-flash", "gemini-2.5-flash"),
+    "gemini": ("gemini-1.5-flash", "gemini-1.5-flash"),
     "anthropic": ("claude-sonnet-5-5", "claude-haiku-5-5"),
     "openai": ("gpt-4.1", "gpt-4.1-mini"),
 }
