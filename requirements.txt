@@ -1,0 +1,5 @@
+streamlit>=1.41
+anthropic>=0.40
+openai>=1.50
+tavily-python>=0.5
+pandas
